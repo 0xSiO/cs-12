@@ -17,11 +17,9 @@ int main(void)
 
 	while(1){
 			digitalWrite(LedPin, LOW);
-			printf("led on...\n");
-			delay(500);
+			delay(1000);
 			digitalWrite(LedPin, HIGH);
-			printf("...led off\n");
-			delay(500);
+			delay(1000);
 	}
 
 	return 0;

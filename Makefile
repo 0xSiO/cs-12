@@ -2,8 +2,9 @@
 
 CFLAGS = -g -Wall
 
-%.o: %.c
-	gcc $(CFLAGS) -c -o $@ $<
+.PHONY: clean
+clean:
+	rm -f out/* **/*.o
 
 lab1: lab_1/main.o
 	gcc $(CFLAGS) -o out/$@ $+
@@ -11,5 +12,5 @@ lab1: lab_1/main.o
 lab2: lab_2/main.o
 	gcc $(CFLAGS) -lwiringPi -o out/$@ $+
 
-clean:
-	rm -f out/* **/*.o
+lab3: lab_3/main.o lab_3/forty_two.o lab_3/negative_one.o lab_3/two_fifty_five.o
+	gcc -o out/$@ $+
