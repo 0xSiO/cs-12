@@ -12,6 +12,6 @@ char c(void);
 
 int main(void)
 {
-    printf("My name: %c%c%c", L(), u(), c());
+    printf("My name: %c%c%c\n", L(), u(), c());
     return 0;
 }

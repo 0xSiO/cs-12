@@ -1,19 +1,17 @@
 /**
  * Lucas Street
- * C program to test functions written in assembly.
+ * C program to test functions written in assembly (characters).
  * Oct 21, 2017
  */
 
 #include "stdio.h"
 
-int forty_two(void);
-int neg_one(void);
-int two_fifty_five(void);
+char L(void);
+char u(void);
+char c(void);
 
 int main(void)
 {
-    printf("Forty two: %i\n", forty_two());
-    printf("Negative one: %i\n", neg_one());
-    printf("Two hundred fifty-five: %i\n", two_fifty_five());
+    printf("My name: %c%c%c\n", L(), u(), c());
     return 0;
 }

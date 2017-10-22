@@ -12,5 +12,5 @@ lab1: lab_1/main.o
 lab2: lab_2/main.o
 	gcc $(CFLAGS) -lwiringPi -o out/$@ $+
 
-lab3: lab_3/main.o lab_3/forty_two.o lab_3/negative_one.o lab_3/two_fifty_five.o
+lab3: lab_3/main.o lab_3/l.o lab_3/u.o lab_3/c.o
 	gcc -o out/$@ $+
