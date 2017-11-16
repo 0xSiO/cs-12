@@ -18,5 +18,5 @@ lab3: lab_3/main.o lab_3/l.o lab_3/u.o lab_3/c.o
 lab4: lab_4/main.o
 	gcc -o out/$@ $+
 
-lab5: lab_5/exercise_2_main.o lab_5/exercise_2_writeStr.o
+lab5: lab_5/exercise_3_main.o lab_5/exercise_2_writeStr.o lab_5/exercise_3_readLn.o
 	gcc -o out/$@ $+
