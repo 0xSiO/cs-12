@@ -21,5 +21,5 @@ lab4: lab_4/main.o
 lab5: lab_5/exercise_4_main.o lab_5/exercise_5_writeStr.o lab_5/exercise_4_readLn.o
 	gcc -o out/$@ $+
 
-lab6: lab_6/14.4_exercise_1_main.o lab_6/14.4_exercise_1_hexToInt.o lab_6/14.2_exercise_1_writeStr.o lab_6/14.4_exercise_1_readLn.o
+lab6: lab_6/14.4_exercise_3_main.o lab_6/14.4_exercise_1_hexToInt.o lab_6/14.2_exercise_1_writeStr.o lab_6/14.4_exercise_1_readLn.o
 	gcc -o out/$@ $+
