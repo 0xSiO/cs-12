@@ -33,4 +33,7 @@ int main()
  * Enter up to 32-bit hex number:
  * 3ad
  * The integer is: 941
+ *
+ * Exercise 2: Yes, this program works the same for uppercase and lowercase since
+ * both are above the number characters '0'-'9' in the ASCII table
  */
