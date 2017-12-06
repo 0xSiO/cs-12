@@ -23,3 +23,6 @@ lab5: lab_5/exercise_4_main.o lab_5/exercise_5_writeStr.o lab_5/exercise_4_readL
 
 lab6: lab_6/14.4_exercise_4_main.o lab_6/14.4_exercise_1_hexToInt.o lab_6/14.4_exercise_4_intToHex.o lab_6/14.2_exercise_1_writeStr.o lab_6/14.4_exercise_1_readLn.o
 	gcc -o out/$@ $+
+
+lab7: lab_7/15.7_main.o lab_7/15.7_createFrac.o lab_7/15.7_inputFrac.o lab_7/15.7_writeStr.o lab_7/15.7_addIntToFrac.o lab_7/15.7_inputInt.o lab_7/15.7_printFrac.o
+	gcc -o out/$@ $+
